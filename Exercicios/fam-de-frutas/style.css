@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+body{
+    background-color: #dfffbf;
+    
+   
+}
+main{
+    background-color: #ffffff;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #4b6a2d8f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    text-align: center;
+    text-align: justify;
+}
+
+img{
+    align-items: center;      
+}
+h1{
+    text-align: center;
+    text-decoration-color: darkgreen;
+}
+h2{
+    text-align: center;
+}
