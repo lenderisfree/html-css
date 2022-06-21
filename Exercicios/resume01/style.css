@@ -52,7 +52,9 @@ main h1{
     color: #fff;
     text-align: justify;
     justify-content: space-between;
-   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
        
 }
 .main-content{
@@ -63,6 +65,7 @@ main h1{
     justify-content: center; 
     min-width: 400px;
     max-width: 800px;  
+   
    
    
 }
@@ -115,6 +118,10 @@ main h1{
 .menudireita{
     width: 100%;
     background-color: #fff;   
+    display: flex;
+    flex-direction: column ;    
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .menudireita h1{
@@ -135,7 +142,30 @@ hr{
     font-weight: bold;
 }
 
+.formacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.datatrabalho{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.jobdata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.experiencia{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 
 
