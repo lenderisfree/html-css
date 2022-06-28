@@ -51,23 +51,22 @@ main h1{
     background-color: var(--cor2);    
     color: #fff;
     text-align: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    min-width: 100px;
        
 }
 .main-content{
-    align-content: space-around;
+   
     margin: auto;
     display: flex;
     flex-direction: row;   
-    justify-content: center; 
-    min-width: 400px;
-    max-width: 800px;  
-   
-   
-   
+    justify-content: space-between; 
+    min-width: 300px;
+    max-width: 700px; 
+    
 }
 
 .menuesquerda h1{
@@ -81,13 +80,13 @@ main h1{
     margin-bottom: -20px;
     text-align: center;
     font-family: none;
+   
 }
 
 .fotoperfil img{
     display: flex;
     width: 70%; 
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 60px;
     border-radius: 50%;
@@ -122,6 +121,7 @@ main h1{
     flex-direction: column ;    
     flex-wrap: wrap;
     display: flex;
+
 }
 
 .menudireita h1{
