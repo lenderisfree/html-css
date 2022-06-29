@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{  
+    width: 800px;
+    margin: auto;  
+    background-color: pink;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: auto;
+    
+}
+
+div{
+    
+   
+}
+
+#left{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+
+}
+
+#right{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
