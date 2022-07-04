@@ -56,6 +56,7 @@ main h1{
     flex-direction: column;
     flex-wrap: wrap;
     min-width: 100px;
+    
        
 }
 .main-content{
@@ -65,7 +66,8 @@ main h1{
     flex-direction: row;   
     justify-content: space-between; 
     min-width: 300px;
-    max-width: 700px; 
+    max-width: 700px;
+    
     
 }
 
@@ -145,7 +147,7 @@ hr{
 .formacao{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 .datatrabalho{
