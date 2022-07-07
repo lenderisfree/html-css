@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Cabin+Condensed&family=Comic+Neue:ital,wght@0,400;1,300&family=Gloria+Hallelujah&family=Handlee&family=Indie+Flower&family=Kalam:wght@300&family=Rajdhani:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Comic+Neue:ital,wght@0,400;1,300&family=Indie+Flower&family=Rajdhani:wght@300;400&display=swap');
 
@@ -15,14 +15,16 @@
 
 :root{
     --cor1: #EBA407;
-    --fontedestaque:'Handlee', cursive;
+    --cor2:  rgb(0, 48, 97);
+    --fontedestaque:'Kalam', cursive;
     --fontetitulos:'Cabin Condensed', sans-serif;
     --fontep: 'Dosis', sans-serif;
 
 }
 
 body{
-    margin: auto;    
+    margin: auto;  
+    margin-bottom: 20px;  
     max-width: 800px;
     min-width: 400px;
     flex-wrap: wrap ;
@@ -30,6 +32,10 @@ body{
     flex-direction: row;
     justify-content: center;
     background-color:rgb(176, 214, 234);
+}
+
+h1{
+    margin-bottom: 20px;
 }
 
 
@@ -43,41 +49,58 @@ p{
     flex-direction: column ;
     flex-wrap: wrap;    
     background-color: rgb(0, 48, 97);
-    width: 100%;
+    width: 100%;    
    
 }
 
  img{
     display: flex;
-    width: 80%;    
+    width: 60%;    
     border-radius: 50%;
     justify-content: center;
     margin: auto;
+    margin-bottom: 30px;
 
  }
 
  .descricao1{
     display: flex; 
     flex-direction: column;   
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 30px;
+    row-gap: 40px;
     margin: 20px;
+    height: 100%;
+
     
+ }
+ .nomeprofissao{
+    display: flex;
+    flex-direction: column;
+   
+ }
+
+ #idiomas{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    align-items: center;
  }
 
  .nomeprofissao h1{
     color: var(--cor1);
     font-family: var(--fontetitulos);
     font-size: 35px;
+    text-align: center;
+    margin-bottom: -5px;
+ }
+ .nomeprofissao p{
+    text-align: center;
+    
  }
 
-
-
-
 .aspas{
-    margin: auto;
-    margin-bottom: -50px;
+    
     font-size: 100px;
     text-align: center; 
     color: var(--cor1);     
@@ -94,15 +117,14 @@ p{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-weight: 400;
-    font-size: 20px;
-    
+    font-size: 20px; 
+    font-weight: 400; 
+
 }
 
 #sobremim p{
     font-family: var(--fontedestaque);
-    color: rgb(201, 198, 198);
-    
+    color: rgb(201, 198, 198);    
 
 } 
 
@@ -113,22 +135,24 @@ p{
     flex-direction: column;
     text-align: justify;
     text-align: center;
-    
-
 }
 
 #contato h1{
     font-family: var(--fontetitulos);
 }
 
-#redesocial a{
+#redesocial {
     display: flex;
-    flex-direction: column;
-    justify-content: center; 
+    flex-direction: row;
+    justify-content: space-around; 
     padding: 5px;
     background-color:#fff;
     border-radius: 5px;
-    
+
+}
+#redesocial a{
+    width: 40px;
+    height: 40px;
 }
 
 a{
@@ -143,24 +167,19 @@ a{
 
 .container2{
     display: flex;
-    max-width: 400px;
+    max-width: 500px;
     flex-direction: column ;
     flex-wrap: wrap;
     background-color: #fff;
     line-height: 25px;    
     column-gap: 30px;
     justify-content: space-between;
-   
-   
-    
-
 }
 
 .descricao2{
     display: flex; 
     flex-direction: row;   
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     flex-wrap: wrap;    
     margin: 20px;
 }
@@ -194,21 +213,100 @@ a{
     text-align: justify;
 }
 
-#formacao1{
-
-   
-}
-
-#formacao2{
-  
-    text-align: right;
-   
-}
-
-hr{
-    border: 0px;
-    margin: 20px;
+#formacao{  
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between; 
     width: 100%;
-    height: 5px;
-    background-image: linear-gradient(to right, transparent, var(--cor1), transparent); 
+    
 }
+
+#cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+    
+}
+
+
+.separação{    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-color: rgb(201, 198, 198); ;
+    border-style: dotted; 
+    border-top: 0px;
+    border-width: 2px;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    column-gap: 10px;    
+}
+
+.tec1{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    border:   black;
+    background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 60%, #bcb9b9 10%);
+
+}
+
+.tec2{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    border:   black;
+    background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 50%, #bcb9b9 10%); 
+
+}
+
+.tec3{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    border:   black;
+    background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
+
+}
+.tec4{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    border:   black;
+    background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 20%, #bcb9b9 10%);
+
+}
+
+.tec5{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    border:   black;
+    background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
+
+}
+.tec6{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    border:   black;
+    background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
+
+}
+.tec7{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    border:   black;
+    background: linear-gradient(to right, var(--cor2) 0%, var(--cor2) 10%, #bcb9b9 10%);
+
+}
+
+
