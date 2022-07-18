@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: #fff;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+          
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+        
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas GRANDES</h1>
+    <!--ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH 
+        -->
+        <table>
+            <caption>População das Unidades Federativas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> São Paulo</td>
+                    <td class="num">45 919 049</td>
+                
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="num">14 016 906</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">10 444 526</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="num">10 693 929</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">8 796 448</td>
+                </tr>
+
+
+
+            </tbody>
+
+            <tfoot>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>82 385 543</strong></td>
+
+            </tfoot>
+
+        </table>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ipsa reiciendis suscipit possimus. Tenetur nemo, perspiciatis asperiores dolorem praesentium maxime numquam facere porro sequi dolor iusto adipisci neque voluptatem cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas ratione eum repudiandae culpa, nulla quaerat voluptate doloribus necessitatibus voluptatem accusantium ducimus beatae quibusdam molestiae animi error quae fugiat. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate deserunt, suscipit nisi voluptas eius autem laboriosam illo qui pariatur aliquam veniam inventore provident vel dolores asperiores doloremque aut atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nihil? Dolorum ab ratione repellat quae fugit perspiciatis sint porro maiores sit exercitationem recusandae, corporis iste rerum, magni laudantium tenetur reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestiae suscipit aperiam distinctio velit enim excepturi dolores non dolorum nobis exercitationem esse sit ipsam eos, praesentium illo ratione quas illum!</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ipsa reiciendis suscipit possimus. Tenetur nemo, perspiciatis asperiores dolorem praesentium maxime numquam facere porro sequi dolor iusto adipisci neque voluptatem cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas ratione eum repudiandae culpa, nulla quaerat voluptate doloribus necessitatibus voluptatem accusantium ducimus beatae quibusdam molestiae animi error quae fugiat. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate deserunt, suscipit nisi voluptas eius autem laboriosam illo qui pariatur aliquam veniam inventore provident vel dolores asperiores doloremque aut atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nihil? Dolorum ab ratione repellat quae fugit perspiciatis sint porro maiores sit exercitationem recusandae, corporis iste rerum, magni laudantium tenetur reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestiae suscipit aperiam distinctio velit enim excepturi dolores non dolorum nobis exercitationem esse sit ipsam eos, praesentium illo ratione quas illum!</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ipsa reiciendis suscipit possimus. Tenetur nemo, perspiciatis asperiores dolorem praesentium maxime numquam facere porro sequi dolor iusto adipisci neque voluptatem cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas ratione eum repudiandae culpa, nulla quaerat voluptate doloribus necessitatibus voluptatem accusantium ducimus beatae quibusdam molestiae animi error quae fugiat. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate deserunt, suscipit nisi voluptas eius autem laboriosam illo qui pariatur aliquam veniam inventore provident vel dolores asperiores doloremque aut atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nihil? Dolorum ab ratione repellat quae fugit perspiciatis sint porro maiores sit exercitationem recusandae, corporis iste rerum, magni laudantium tenetur reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestiae suscipit aperiam distinctio velit enim excepturi dolores non dolorum nobis exercitationem esse sit ipsam eos, praesentium illo ratione quas illum!</p>
+
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ipsa reiciendis suscipit possimus. Tenetur nemo, perspiciatis asperiores dolorem praesentium maxime numquam facere porro sequi dolor iusto adipisci neque voluptatem cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas ratione eum repudiandae culpa, nulla quaerat voluptate doloribus necessitatibus voluptatem accusantium ducimus beatae quibusdam molestiae animi error quae fugiat. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate deserunt, suscipit nisi voluptas eius autem laboriosam illo qui pariatur aliquam veniam inventore provident vel dolores asperiores doloremque aut atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nihil? Dolorum ab ratione repellat quae fugit perspiciatis sint porro maiores sit exercitationem recusandae, corporis iste rerum, magni laudantium tenetur reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestiae suscipit aperiam distinctio velit enim excepturi dolores non dolorum nobis exercitationem esse sit ipsam eos, praesentium illo ratione quas illum!</p>
+
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ipsa reiciendis suscipit possimus. Tenetur nemo, perspiciatis asperiores dolorem praesentium maxime numquam facere porro sequi dolor iusto adipisci neque voluptatem cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas ratione eum repudiandae culpa, nulla quaerat voluptate doloribus necessitatibus voluptatem accusantium ducimus beatae quibusdam molestiae animi error quae fugiat. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate deserunt, suscipit nisi voluptas eius autem laboriosam illo qui pariatur aliquam veniam inventore provident vel dolores asperiores doloremque aut atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nihil? Dolorum ab ratione repellat quae fugit perspiciatis sint porro maiores sit exercitationem recusandae, corporis iste rerum, magni laudantium tenetur reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestiae suscipit aperiam distinctio velit enim excepturi dolores non dolorum nobis exercitationem esse sit ipsam eos, praesentium illo ratione quas illum!</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ipsa reiciendis suscipit possimus. Tenetur nemo, perspiciatis asperiores dolorem praesentium maxime numquam facere porro sequi dolor iusto adipisci neque voluptatem cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas ratione eum repudiandae culpa, nulla quaerat voluptate doloribus necessitatibus voluptatem accusantium ducimus beatae quibusdam molestiae animi error quae fugiat. Unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate deserunt, suscipit nisi voluptas eius autem laboriosam illo qui pariatur aliquam veniam inventore provident vel dolores asperiores doloremque aut atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, nihil? Dolorum ab ratione repellat quae fugit perspiciatis sint porro maiores sit exercitationem recusandae, corporis iste rerum, magni laudantium tenetur reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestiae suscipit aperiam distinctio velit enim excepturi dolores non dolorum nobis exercitationem esse sit ipsam eos, praesentium illo ratione quas illum!</p>
+    
+    
+
+
+
+
+</body>
